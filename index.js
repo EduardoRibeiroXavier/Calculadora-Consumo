@@ -16,7 +16,7 @@ function getvalue(){
     alert("Preencha todos os campos!")
   }
   var soma = (value_consumo * value_valor);
- 
+
   document.getElementById("result").textContent = `O valor da sua conta será: ${soma.toFixed(2)}`;
 }
 
